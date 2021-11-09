@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Shopping Cart</title>
+</head>
+<body class="center">
+<section>
+    <div class="card mx-auto" style="width: 25rem;">
+        <div class="card-body">
+            <h2 class="card-title text-center">Welcome to Trader Mike's</h2>
+            <h6 class="card-subtitle mb-2 text-muted text-center">*Not a ripoff of Trader Joe's</h6>
+            <ul class="list-group">
+                <li class="list-group-item">Potatoes<button class="btn btn-dark btn-sm float-right" onclick="AddPotatoes()">Add to cart</button></li>
+
+                <li class="list-group-item">Bananas<button class="btn btn-dark btn-sm float-right" onclick="AddBananas()">Add to cart</button></li>
+
+                <li class="list-group-item">Resse's<button class="btn btn-dark btn-sm float-right" onclick="AddResses()">Add to cart</button></li>
+
+                <li class="list-group-item">Funyuns<button class="btn btn-dark btn-sm float-right" onclick="AddFunyuns()">Add to cart</button></li>
+
+                <li class="list-group-item">Coca-Cola<button class="btn btn-dark btn-sm float-right" onclick="AddCola()">Add to cart</button></li>
+            </ul><br>
+            <button class="btn btn-primary mx-auto btn-block w-50" onclick="DisplayMyItems()">Display Items</button><br>
+        </div>
+    </div>
+</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
